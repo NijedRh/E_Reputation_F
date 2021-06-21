@@ -1,9 +1,9 @@
-from src.nlt_fonctions.remove_non_ascii import RemoveNonAscii
-from src.nlt_fonctions.to_lowercase import ToLowerCase
-from src.nlt_fonctions.remove_ponctuation import RemovePunctuation
-from src.nlt_fonctions.replace_number import ReplaceNumber
-from src.nlt_fonctions.stop_words import StopWords
-from src.nlt_fonctions.replace_contractions import Contractions
+from src.nlp_fonctions.remove_non_ascii import RemoveNonAscii
+from src.nlp_fonctions.to_lowercase import ToLowerCase
+from src.nlp_fonctions.remove_ponctuation import RemovePunctuation
+from src.nlp_fonctions.replace_number import ReplaceNumber
+from src.nlp_fonctions.stop_words import StopWords
+from src.nlp_fonctions.replace_contractions import Contractions
 import nltk
 
 class CommentCleaning :
