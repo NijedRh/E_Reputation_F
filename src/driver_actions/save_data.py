@@ -17,15 +17,18 @@ class SavingData :
             comment = CommentExtractor(web_element)
             #fonction retourne nombre de réaction
             react = ReactExtractor(web_element)
-            #fonction retourne pos/neg/neutre
-            pos_neg_neutre = SentimentAnalyzer(web_element)
-
             data["post_num_" + str(k)] = dict()
             data["post_num_" + str(k)]['titre'] = text.extract_text()
             data["post_num_" + str(k)]['react'] = react.extract_react
             data["post_num_" + str(k)]['commentaires'] = comment.extract_comment()
 
             k = k + 1
+        comments = CommentExtractor(self.list_web_element)
+        #pnn =SentimentAnalyzer(self.list_web_element)
+        data["nombre de commentaire totales" ]= comments.extract_nbr_comment()
+        """data["nombre de commentaire positive "]=comments.extract_comment()
+        data["nombre de commentaire negative "]=comments.extract_comment()
+        data["nombre de commentaire neutre "]= comments.extract_comment()"""
 
         with open('profile_posts_data.json', 'w', encoding='utf-8') as json_file:
-         json.dump(data, json_file, ensure_ascii=False, indent=2)
+         json.dump(data, json_file, ensure_ascii=False, indent=1 , separators= (',', ':'))
