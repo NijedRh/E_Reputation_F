@@ -2,7 +2,8 @@ import json
 from src.driver_actions.extract_comment import CommentExtractor
 from src.driver_actions.extract_text import TextExtractor
 from src.driver_actions.extract_reaction import ReactExtractor
-from src.sentiment_analyszer.sentiment import SentimentAnalyzer
+from src.sentiment_analyszer.sentiment_post import SentimentPost
+
 class SavingData :
     def __init__(self,  list_web_element):
         self.list_web_element = list_web_element
@@ -17,10 +18,14 @@ class SavingData :
             comment = CommentExtractor(web_element)
             #fonction retourne nombre de réaction
             react = ReactExtractor(web_element)
+            #fonction retourne sent de post
+            sent_post = SentimentPost(web_element)
             data["post_num_" + str(k)] = dict()
             data["post_num_" + str(k)]['titre'] = text.extract_text()
             data["post_num_" + str(k)]['react'] = react.extract_react
             data["post_num_" + str(k)]['commentaires'] = comment.extract_comment()
+            #data["post_num_" + str(k)]['post_sent'] =react.extract_react()
+
 
             k = k + 1
         comments = CommentExtractor(self.list_web_element)
