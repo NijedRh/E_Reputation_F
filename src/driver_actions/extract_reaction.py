@@ -5,6 +5,10 @@ class ReactExtractor :
     @property
     def extract_react (self):
         t=dict()
+        t['J’aime ']=0
+        t['J’adore ']=0
+        t['Haha']=0
+        t['Grrr']=0
         reaction_div = self.web_element.find_elements_by_css_selector('span._1n9k')
         for reactions in reaction_div :
             reaction = reactions.find_element_by_css_selector('a').get_attribute("aria-label")
@@ -16,10 +20,5 @@ class ReactExtractor :
                 t['Haha'] = int(str(reaction.strip("Haha")))
             elif "Grrr" in reaction :
                 t['Grrr' ]= int(str(reaction.strip("Grrr")))
-        post_sent=SentimentPost(t)
-        sent_post = post_sent.analyse_post()
-        print(sent_post)
-
-
-        return t
+        return [t['J’aime '],t['J’adore ' ], t['Haha'], t['Grrr' ]]
 

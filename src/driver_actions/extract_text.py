@@ -3,8 +3,12 @@ class TextExtractor:
         self.web_element = web_element
 
     def extract_text(self):
-        posts = self.web_element.find_element_by_css_selector('p')
-        data = posts.text
+        try:
+
+            posts = self.web_element.find_element_by_css_selector('p')
+            data = posts.text
+        except:
+            return "no description"
         return data
 
 
