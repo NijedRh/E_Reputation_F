@@ -23,5 +23,3 @@ class PageExtractor:
         list_web_element= web_driver.find_elements_by_xpath('//div[@class="_4-u2 _4-u8"]')
         save = SavingData(list_web_element)
         save.save_data()
-        """insert = DataBase()
-        insert.data()"""

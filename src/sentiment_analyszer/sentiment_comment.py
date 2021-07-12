@@ -16,40 +16,20 @@ class SentimentAnalyzer :
         if vs["compound"] >= 0.1:
             e = "positive comment"
             h=a,b,c,d,e
+            p="po"
             #print(h)
-            return e ,vs["compound"]#json.dumps(h, ensure_ascii=False,separators=(',', ':') )
+            return e ,p#json.dumps(h, ensure_ascii=False,separators=(',', ':') )
         elif vs["compound"] <= -0.1:
             e = "negative comment"
-
+            p="neg"
             h = [a, b, c, d, e]
             #print(h)
-            return e ,vs["compound"] #json.dumps(h, ensure_ascii=False,separators=(',', ':'))
+            return e ,p #json.dumps(h, ensure_ascii=False,separators=(',', ':'))
         else:
             e = "neutral comment"
-
+            p="neu"
             h = [a, b, c, d, e]
             #print(h)
-            return e,vs["compound"] #json.dumps(h,ensure_ascii=False, separators=(',', ':'))
-class NbrSent :
-    def __init__(self , p ):
-        self.p = p
-    def nbr_pos_neg_neu ( self ):
-
-        analyzer = SentimentIntensityAnalyzer()
-        i = 0
-        j = 0
-        k = 0
-        print (self.p)
-        for sentence in self.p :
-            vs = analyzer.polarity_scores(sentence)
-
-            if vs["compound"] >= 0.1:
-                i=i+1
-            elif vs["compound"] <= -0.1:
-                j=j+1
-            else :
-                k=k+1
-        print ( i , j ,k )
-        return  i ,j , k
+            return e,p #json.dumps(h,ensure_ascii=False, separators=(',', ':'))
 
 

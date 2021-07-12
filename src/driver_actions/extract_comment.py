@@ -9,10 +9,11 @@ class CommentExtractor:
         t=[]
         y=[]
         p=[]
+        i=j=k=0
         commenters = self.web_element.find_elements_by_css_selector('a._6qw4')
         for commenter in commenters :
             comm = commenter.text
-            t.append( comm)
+            t.append("auteur : "+ comm)
 
         comments_text = self.web_element.find_elements_by_css_selector('span._3l3x')
         for comment_text in comments_text :
@@ -21,18 +22,16 @@ class CommentExtractor:
             comment =text_sample.clean_comment()
             pos_neg = SentimentAnalyzer(comms)
             sent_com =pos_neg.analyse()[0]
-            y.append(str(comment))
-            p.append( sent_com)
-        c=dict()
+            sent_sum =pos_neg.analyse()[1]
+            if sent_sum =="po": i+=1
+            elif sent_sum=="neg": j+=1
+            else :  k+=1
+            y.append("comm " +str(comment))
+            p.append("sent : " +sent_com)
         lis=[]
         for x, z, m in zip(t, y,p):
-            c["auteur"]= x
-            c["text"]=z
-            c["comment sent "]=m
-            lis.append(c)
-            c=dict(c)
-        print(lis)
-        return lis
+           lis.append([x,z,m])
+        return lis ,i,j,k
     def extract_nbr_comment(self):
         i=0
         for web in self.web_element :

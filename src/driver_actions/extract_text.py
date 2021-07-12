@@ -4,7 +4,6 @@ class TextExtractor:
 
     def extract_text(self):
         try:
-
             posts = self.web_element.find_element_by_css_selector('p')
             data = posts.text
         except:
