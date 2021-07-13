@@ -1,4 +1,3 @@
-from src.sentiment_analyszer.sentiment_post import SentimentPost
 class ReactExtractor :
     def __init__(self , web_element):
         self.web_element = web_element
@@ -21,4 +20,3 @@ class ReactExtractor :
             elif "Grrr" in reaction :
                 t['Grrr' ]= int(str(reaction.strip("Grrr")))
         return [t['J’aime '],t['J’adore ' ], t['Haha'], t['Grrr' ]]
-

@@ -1,10 +1,8 @@
 
 
 class SentimentPost :
-    def __init__(self , t  ):
-        self.t =t
 
-    def analyse_post(self):
+    def analyse_post(self ,t):
         """initialise compound number to  0
             if like number > 1 grr number ==> compound +0.1
             if like number > 2 grrr number ==> compound + 0.2
@@ -17,28 +15,26 @@ class SentimentPost :
             if  overall compound number > 0.1 then post sent is positive
             elif overall compound number < 0.1 then post sent ins negative
             else post sent in neutre
+            i[0] = j'aime , i[1]=j'adore , i[2]= haha , i[3]=grrr
+
             """
-
-
-        score = 0
-        try:
-            if 1* self.t['Grrr'] < self.t['J’aime '] < 2*self.t['Grrr']:
+        score=0
+        for i in t:
+            if 1* i[3] < i[0] < 2*i[3]:
                 score +=0.1
-
-            elif 2* self.t['Grrr'] <= self.t['J’aime '] < 3*self.t['Grrr']:
+            elif 2* i[3] <= i[0] < 3*i[3]:
                 score +=0.2
-            elif 3* self.t['Grrr'] <= self.t['J’aime '] :
+            elif 3* i[3] <= i[0] :
                 score +=0.3
-        except :
-            pass
-        try:
-            if (self.t['Haha'] and self.t['Grrr'])>self.t['J’aime']:
+
+            if (i[2] and i[3])>i[0]:
                 score -= 0.2
-            elif(self.t['Haha']and self.t['J’aime'])>self.t['Grrr']:
+            elif(i[2]and i[0])>i[3]:
                 score +=0.1
-        except:
-            pass
-        return "le score est " + str(score)
+
+        return float(score)*0.3
+
+
 
 
 

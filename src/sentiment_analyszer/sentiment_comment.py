@@ -15,21 +15,19 @@ class SentimentAnalyzer :
 
         if vs["compound"] >= 0.1:
             e = "positive comment"
-            h=a,b,c,d,e
             p="po"
-            #print(h)
-            return e ,p#json.dumps(h, ensure_ascii=False,separators=(',', ':') )
+            return e ,p ,float(vs.get("compound"))
         elif vs["compound"] <= -0.1:
             e = "negative comment"
             p="neg"
             h = [a, b, c, d, e]
-            #print(h)
-            return e ,p #json.dumps(h, ensure_ascii=False,separators=(',', ':'))
+
+            return e ,p ,float(vs.get("compound"))
         else:
             e = "neutral comment"
             p="neu"
             h = [a, b, c, d, e]
-            #print(h)
-            return e,p #json.dumps(h,ensure_ascii=False, separators=(',', ':'))
+
+            return e,p ,float(vs.get("compound"))
 
 
