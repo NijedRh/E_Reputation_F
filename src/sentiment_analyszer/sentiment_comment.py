@@ -16,18 +16,20 @@ class SentimentAnalyzer :
         if vs["compound"] >= 0.1:
             e = "positive comment"
             p="po"
-            return e ,p ,float(vs.get("compound"))
+            h = [a, b, c, d, e]
+
+            return e ,p ,vs.get("compound")
         elif vs["compound"] <= -0.1:
             e = "negative comment"
             p="neg"
             h = [a, b, c, d, e]
 
-            return e ,p ,float(vs.get("compound"))
+            return e ,p ,vs.get("compound")
         else:
             e = "neutral comment"
             p="neu"
             h = [a, b, c, d, e]
 
-            return e,p ,float(vs.get("compound"))
+            return e,p ,vs.get("compound")
 
 

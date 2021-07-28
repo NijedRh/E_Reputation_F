@@ -1,5 +1,3 @@
-
-
 class SentimentPost :
 
     def analyse_post(self ,t):
@@ -9,6 +7,7 @@ class SentimentPost :
             if  like number > 3 grr number ==> compound + 0.3
             if HAha number and grrr number > like number ==> compound - 0.2
             if HAha number and like number > grr number ==> compound +0.1
+
             make a sum of coumpound number for each comment * 0.7
             +
             sum of compound number for the reaction *0.3
@@ -20,27 +19,14 @@ class SentimentPost :
             """
         score=0
         for i in t:
-            if 1* i[3] < i[0] < 2*i[3]:
+            if 1* i[3] < (i[0] or i[1])<= 2*i[3]:
                 score +=0.1
-            elif 2* i[3] <= i[0] < 3*i[3]:
+            elif 2* i[3] < (i[0]or i[1] )<= 3*i[3]:
                 score +=0.2
-            elif 3* i[3] <= i[0] :
+            elif 3* i[3] < (i[0]or i[1]) :
                 score +=0.3
-
-            if (i[2] and i[3])>i[0]:
-                score -= 0.2
-            elif(i[2]and i[0])>i[3]:
-                score +=0.1
-
+            elif i[3]>i[0] and i[1] :
+                score -=0.4
+            elif (i[2] and i[3])>(i[0]or i[1]):
+                score -= 0.3
         return float(score)*0.3
-
-
-
-
-
-
-
-
-
-
-
