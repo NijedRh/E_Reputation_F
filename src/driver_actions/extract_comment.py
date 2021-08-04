@@ -1,6 +1,5 @@
 from src.nlp_fonctions.main_fonctions import CommentCleaning
 from src.sentiment_analyszer.sentiment_comment import SentimentAnalyzer
-from src.sql_database.dddbb import Db3
 class CommentExtractor:
 
     def __init__(self, web_element):

@@ -1,11 +1,12 @@
 from nltk.stem import WordNetLemmatizer
 
-class LemmatizeVerbs :
+
+class LemmatizeVerbs:
     def __init__(self, words):
-        self.words =words
+        self.words = words
 
     def lemmatize_verbs(self):
-        #Lemmatiser les verbes dans une liste des mots tokenisés
+        # Lemmatiser les verbes dans une liste des mots tokenisés
         lemmatizer = WordNetLemmatizer()
         lemmas = []
         for word in self.words:

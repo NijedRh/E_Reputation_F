@@ -8,14 +8,16 @@ from src.nlp_fonctions.lemmatize_verbs import LemmatizeVerbs
 from src.nlp_fonctions.topic import Topics
 import nltk
 
-class CommentCleaning :
+
+
+class CommentCleaning:
     def __init__(self, sample):
-        self.sample= sample
+        self.sample = sample
 
     def clean_comment(self):
         cont = Contractions(self.sample)
         sample = cont.replace_contractions()
-        #diviser le texte par mot
+        # diviser le texte par mot
         words = nltk.word_tokenize(sample)
         non_ascii = RemoveNonAscii(words)
         words = non_ascii.remove_non_ascii()
@@ -23,7 +25,7 @@ class CommentCleaning :
         words = lower_case.to_lowercase()
         punctuation = RemovePunctuation(words)
         words = punctuation.remove_punctuation()
-        number= ReplaceNumber(words)
+        number = ReplaceNumber(words)
         words = number.replace_numbers()
         stop_words = StopWords(words)
         words = stop_words.remove_stopwords()

@@ -1,0 +1,446 @@
+{
+ "post1":{
+  "titre":"Our #HelpingBritainProsper Plan takes us beyond business as usual.",
+  "topic":"plan",
+  "react":{
+   "J’aime ":29,
+   "J’adore ":0,
+   "Haha":6,
+   "Grrr":0
+  },
+  "commentaires":{
+   "det":[
+    {
+     "auteur ":"Sarah Tucker"
+    },
+    {
+     "comm ":"Having the most TERRIBLE experience trying to use Lloyds International - diabolical. I will encourage everyone to use another bank for international banking."
+    },
+    {
+     "sent : ":"negative comment"
+    }
+   ],
+   "nbr_comm_positive":0,
+   "nbr_comm_negative":1,
+   "nbr_comm_neutre":0
+  },
+  "post_sent_overall":"neutre"
+ },
+ "post2":{
+  "titre":"As the UK’s largest digital bank, we’re on one of the biggest transformation journeys within financial services.",
+  "topic":"digital",
+  "react":{
+   "J’aime ":21,
+   "J’adore ":0,
+   "Haha":0,
+   "Grrr":0
+  },
+  "commentaires":{
+   "det":[
+    {
+     "auteur ":"Adekunle Odekanmi"
+    },
+    {
+     "comm ":"I need to open a Savings Account to facilitate payments for my business transactions. Could you do that, for me, please? Thanks."
+    },
+    {
+     "sent : ":"positive comment"
+    }
+   ],
+   "nbr_comm_positive":1,
+   "nbr_comm_negative":0,
+   "nbr_comm_neutre":0
+  },
+  "post_sent_overall":"positive"
+ },
+ "post3":{
+  "titre":"Jen Tippin, Group Director for People & Productivity, shares an update on how we’ve supported our colleagues over the past year, and why we’re proud of our ongoing commitment to Help Britain Prosper.",
+  "topic":"productivity",
+  "react":{
+   "J’aime ":31,
+   "J’adore ":4,
+   "Haha":0,
+   "Grrr":0
+  },
+  "commentaires":{
+   "det":[],
+   "nbr_comm_positive":1,
+   "nbr_comm_negative":0,
+   "nbr_comm_neutre":0
+  },
+  "post_sent_overall":"positive"
+ },
+ "post4":{
+  "titre":"We’re delighted to have helped so many people, businesses and communities over the last year, as part of our purpose of #HelpingBritainProsper.",
+  "topic":"people",
+  "react":{
+   "J’aime ":28,
+   "J’adore ":0,
+   "Haha":0,
+   "Grrr":0
+  },
+  "commentaires":{
+   "det":[
+    {
+     "auteur ":"Jeremy Real OG"
+    },
+    {
+     "comm ":"Please let me introduced my self I am Michelle from the Profit investment/ Cash Advance service we can help you financial by getting Auto Loans,Business Loans, School Loans,Mortgage Groceries, Depths. This is 100% safe and secure legitimate company. start by downloading our remitly app\n£300-£2500\n£600-£3500…Voir plus"
+    },
+    {
+     "sent : ":"positive comment"
+    }
+   ],
+   "nbr_comm_positive":1,
+   "nbr_comm_negative":0,
+   "nbr_comm_neutre":0
+  },
+  "post_sent_overall":"positive"
+ },
+ "post5":{
+  "titre":"Group Chief Executive António Horta-Osório shares his thoughts on today's 2019 Full Year #LBGResults and provides an update on our 2018-2020 strategy.",
+  "topic":"",
+  "react":{
+   "J’aime ":24,
+   "J’adore ":4,
+   "Haha":0,
+   "Grrr":0
+  },
+  "commentaires":{
+   "det":[
+    {
+     "auteur ":"Jeremy Real OG"
+    },
+    {
+     "comm ":"Please let me introduced my self I am Michelle from the Profit investment/ Cash Advance service we can help you financial by getting Auto Loans,Business Loans, School Loans,Mortgage Groceries, Depths. This is 100% safe and secure legitimate company. start by downloading our remitly app\n£300-£2500\n£600-£3500…Voir plus"
+    },
+    {
+     "sent : ":"positive comment"
+    }
+   ],
+   "nbr_comm_positive":1,
+   "nbr_comm_negative":0,
+   "nbr_comm_neutre":0
+  },
+  "post_sent_overall":"positive"
+ },
+ "post6":{
+  "titre":"Today we announce our 2019 Full Year #LBGResults.",
+  "topic":"year",
+  "react":{
+   "J’aime ":35,
+   "J’adore ":2,
+   "Haha":0,
+   "Grrr":0
+  },
+  "commentaires":{
+   "det":[
+    {
+     "auteur ":"Thomas Oke Bartlett"
+    },
+    {
+     "comm ":"https://m.facebook.com/story.php?story_fbid=10157112597371356&id=591916355&fs=0&focus_composer=0"
+    },
+    {
+     "sent : ":"neutral comment"
+    }
+   ],
+   "nbr_comm_positive":0,
+   "nbr_comm_negative":0,
+   "nbr_comm_neutre":1
+  },
+  "post_sent_overall":"positive"
+ },
+ "post7":{
+  "titre":"Tomorrow at 7am, we will announce our 2019 Full Year #LBGResults and our 2018-2020 strategy update.",
+  "topic":"strategy",
+  "react":{
+   "J’aime ":34,
+   "J’adore ":2,
+   "Haha":0,
+   "Grrr":0
+  },
+  "commentaires":{
+   "det":[
+    {
+     "auteur ":"Keith Hiatt"
+    },
+    {
+     "comm ":"STOP THE HORSE ADVERTS"
+    },
+    {
+     "sent : ":"negative comment"
+    }
+   ],
+   "nbr_comm_positive":0,
+   "nbr_comm_negative":1,
+   "nbr_comm_neutre":0
+  },
+  "post_sent_overall":"neutre"
+ },
+ "post8":{
+  "titre":"We’re by the side of British business whatever the future brings. That’s why we’re pledging to lend UK businesses up to £18bn in 2020. This is one of the ways we're #HelpingBritainProsper.",
+  "topic":"british",
+  "react":{
+   "J’aime ":46,
+   "J’adore ":0,
+   "Haha":0,
+   "Grrr":0
+  },
+  "commentaires":{
+   "det":[],
+   "nbr_comm_positive":1,
+   "nbr_comm_negative":0,
+   "nbr_comm_neutre":0
+  },
+  "post_sent_overall":"positive"
+ },
+ "post9":{
+  "titre":"Wishing all of our customers, colleagues and friends a Happy New Year! 🎆",
+  "topic":"new",
+  "react":{
+   "J’aime ":147,
+   "J’adore ":17,
+   "Haha":0,
+   "Grrr":0
+  },
+  "commentaires":{
+   "det":[],
+   "nbr_comm_positive":0,
+   "nbr_comm_negative":0,
+   "nbr_comm_neutre":0
+  },
+  "post_sent_overall":"positive"
+ },
+ "post10":{
+  "titre":"Wishing a Merry Christmas to all of our customers, colleagues and friends. 🎄",
+  "topic":"customers",
+  "react":{
+   "J’aime ":167,
+   "J’adore ":27,
+   "Haha":0,
+   "Grrr":0
+  },
+  "commentaires":{
+   "det":[],
+   "nbr_comm_positive":0,
+   "nbr_comm_negative":1,
+   "nbr_comm_neutre":0
+  },
+  "post_sent_overall":"neutre"
+ },
+ "post11":{
+  "titre":"More than 6,000 of our staff served in the First World War. Nearly 1,000 did not return.",
+  "topic":"war",
+  "react":{
+   "J’aime ":93,
+   "J’adore ":38,
+   "Haha":0,
+   "Grrr":0
+  },
+  "commentaires":{
+   "det":[
+    {
+     "auteur ":"Louise Goode"
+    },
+    {
+     "comm ":"Is that why you don’t answer the phone? All our agents are busy with other callers at the moment but you call will be answered as soon as an agent becomes available. Well Lloyds credit card disputes it be two hours now. How long is reasonable to keep a customer waiting?"
+    },
+    {
+     "sent : ":"positive comment"
+    }
+   ],
+   "nbr_comm_positive":1,
+   "nbr_comm_negative":0,
+   "nbr_comm_neutre":0
+  },
+  "post_sent_overall":"positive"
+ },
+ "post12":{
+  "titre":"Alongside our solid financial performance, we continue to make good progress with the right strategy in the current environment. http://bit.ly/LBGResults #LBGResults #HelpingBritainProsper #LLOY",
+  "topic":"financial",
+  "react":{
+   "J’aime ":23,
+   "J’adore ":0,
+   "Haha":0,
+   "Grrr":0
+  },
+  "commentaires":{
+   "det":[
+    {
+     "auteur ":"Louise Goode"
+    },
+    {
+     "comm ":"All our agents are busy with other callers at the moment but you call will be answered as soon as an agent becomes available. Well Lloyds credit card disputes it be two hours now. How long is reasonable to keep a customer waiting?"
+    },
+    {
+     "sent : ":"positive comment"
+    }
+   ],
+   "nbr_comm_positive":1,
+   "nbr_comm_negative":0,
+   "nbr_comm_neutre":0
+  },
+  "post_sent_overall":"positive"
+ },
+ "post13":{
+  "titre":"António Horta-Osório shares his thoughts on today’s 2019 Q3 #LBGResults. Full details at http://bit.ly/LBGResults #LLOY",
+  "topic":"horta",
+  "react":{
+   "J’aime ":24,
+   "J’adore ":0,
+   "Haha":0,
+   "Grrr":0
+  },
+  "commentaires":{
+   "det":[
+    {
+     "auteur ":"Dan Smith"
+    },
+    {
+     "comm ":"Lloyds employees even the fraud department think a contract negates negligence they basically said as much me"
+    },
+    {
+     "sent : ":"negative comment"
+    }
+   ],
+   "nbr_comm_positive":0,
+   "nbr_comm_negative":1,
+   "nbr_comm_neutre":0
+  },
+  "post_sent_overall":"positive"
+ },
+ "post14":{
+  "titre":"Today we announce our 2019 Q3 #LBGResults. See the highlights below. For a full breakdown, visit http://bit.ly/LBGResults #LLOY",
+  "topic":"visit",
+  "react":{
+   "J’aime ":21,
+   "J’adore ":0,
+   "Haha":0,
+   "Grrr":0
+  },
+  "commentaires":{
+   "det":[],
+   "nbr_comm_positive":0,
+   "nbr_comm_negative":0,
+   "nbr_comm_neutre":0
+  },
+  "post_sent_overall":"positive"
+ },
+ "post15":{
+  "titre":"Tomorrow we announce our 2019 Q3 #LBGResults from 7am, including a message from CEO António Horta-Osório. #LLOY",
+  "topic":"",
+  "react":{
+   "J’aime ":23,
+   "J’adore ":0,
+   "Haha":0,
+   "Grrr":0
+  },
+  "commentaires":{
+   "det":[
+    {
+     "auteur ":"Louise Goode"
+    },
+    {
+     "comm ":"All our agents are busy with other callers at the moment but you call will be answered as soon as an agent becomes available. Well Lloyds credit card disputes it be two hours now. How long is reasonable to keep a customer waiting?"
+    },
+    {
+     "sent : ":"positive comment"
+    }
+   ],
+   "nbr_comm_positive":1,
+   "nbr_comm_negative":0,
+   "nbr_comm_neutre":0
+  },
+  "post_sent_overall":"positive"
+ },
+ "post16":{
+  "titre":"ANNOUNCEMENT: We're delighted to be extending our partnership with Mental Health UK for another two years.This will support Bloom, a new programme which will reach half a million young people in the UK.",
+  "topic":"young",
+  "react":{
+   "J’aime ":125,
+   "J’adore ":30,
+   "Haha":0,
+   "Grrr":0
+  },
+  "commentaires":{
+   "det":[],
+   "nbr_comm_positive":0,
+   "nbr_comm_negative":1,
+   "nbr_comm_neutre":0
+  },
+  "post_sent_overall":"positive"
+ },
+ "post17":{
+  "titre":"We've provided £140m of funding to the Hornsea One wind farm in the North Sea. It'll be capable of powering over one million UK homes with green electricity.",
+  "topic":"wind",
+  "react":{
+   "J’aime ":34,
+   "J’adore ":4,
+   "Haha":0,
+   "Grrr":0
+  },
+  "commentaires":{
+   "det":[
+    {
+     "auteur ":"Louise Goode"
+    },
+    {
+     "comm ":"All our agents are busy with other callers at the moment but you call will be answered as soon as an agent becomes available. Well Lloyds credit card disputes it be two hours now. How long is reasonable to keep a customer waiting?"
+    },
+    {
+     "sent : ":"positive comment"
+    }
+   ],
+   "nbr_comm_positive":1,
+   "nbr_comm_negative":0,
+   "nbr_comm_neutre":0
+  },
+  "post_sent_overall":"positive"
+ },
+ "post18":{
+  "titre":"As the largest lender in the housing sector, we’re here to help Britain get a home. We’ve committed to:\n🏡 lend £30bn to first-time buyers by 2020\n🏡 support housebuilders to build new homes\n🏡 provide over £5.5bn for social housing",
+  "topic":"housing",
+  "react":{
+   "J’aime ":21,
+   "J’adore ":2,
+   "Haha":0,
+   "Grrr":2
+  },
+  "commentaires":{
+   "det":[],
+   "nbr_comm_positive":0,
+   "nbr_comm_negative":1,
+   "nbr_comm_neutre":0
+  },
+  "post_sent_overall":"positive"
+ },
+ "post19":{
+  "titre":"We're working to make saving for tomorrow, easy and flexible for our customers. #HelpingBritainProsper",
+  "topic":"helpingbritainprosper",
+  "react":{
+   "J’aime ":13,
+   "J’adore ":1,
+   "Haha":1,
+   "Grrr":0
+  },
+  "commentaires":{
+   "det":[
+    {
+     "auteur ":"Louise Goode"
+    },
+    {
+     "comm ":"All our agents are busy with other callers at the moment but you call will be answered as soon as an agent becomes available. Well Lloyds credit card disputes it be two hours now. How long is reasonable to keep a customer waiting?"
+    },
+    {
+     "sent : ":"positive comment"
+    }
+   ],
+   "nbr_comm_positive":1,
+   "nbr_comm_negative":0,
+   "nbr_comm_neutre":0
+  },
+  "post_sent_overall":"positive"
+ },
+ "nombre de commentaire totales":17
+}
