@@ -8,7 +8,7 @@ def main_process():
 #schedule.every().monday.at('08:00').do(main_process)
 if __name__ == '__main__':
      main_process()
-"""while 1 :
+"""while True :
 
         schedule.run_pending()
         time.sleep(1)"""

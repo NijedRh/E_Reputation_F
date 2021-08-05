@@ -1,6 +1,7 @@
 {
  "post1":{
   "titre":"Our #HelpingBritainProsper Plan takes us beyond business as usual.",
+  "date":"23 février 2020",
   "topic":"plan",
   "react":{
    "J’aime ":29,
@@ -28,6 +29,7 @@
  },
  "post2":{
   "titre":"As the UK’s largest digital bank, we’re on one of the biggest transformation journeys within financial services.",
+  "date":"21 février 2020",
   "topic":"digital",
   "react":{
    "J’aime ":21,
@@ -55,6 +57,7 @@
  },
  "post3":{
   "titre":"Jen Tippin, Group Director for People & Productivity, shares an update on how we’ve supported our colleagues over the past year, and why we’re proud of our ongoing commitment to Help Britain Prosper.",
+  "date":"21 février 2020",
   "topic":"productivity",
   "react":{
    "J’aime ":31,
@@ -72,6 +75,7 @@
  },
  "post4":{
   "titre":"We’re delighted to have helped so many people, businesses and communities over the last year, as part of our purpose of #HelpingBritainProsper.",
+  "date":"20 février 2020",
   "topic":"people",
   "react":{
    "J’aime ":28,
@@ -99,6 +103,7 @@
  },
  "post5":{
   "titre":"Group Chief Executive António Horta-Osório shares his thoughts on today's 2019 Full Year #LBGResults and provides an update on our 2018-2020 strategy.",
+  "date":"19 février 2020",
   "topic":"",
   "react":{
    "J’aime ":24,
@@ -126,6 +131,7 @@
  },
  "post6":{
   "titre":"Today we announce our 2019 Full Year #LBGResults.",
+  "date":"19 février 2020",
   "topic":"year",
   "react":{
    "J’aime ":35,
@@ -153,6 +159,7 @@
  },
  "post7":{
   "titre":"Tomorrow at 7am, we will announce our 2019 Full Year #LBGResults and our 2018-2020 strategy update.",
+  "date":"19 février 2020",
   "topic":"strategy",
   "react":{
    "J’aime ":34,
@@ -180,6 +187,7 @@
  },
  "post8":{
   "titre":"We’re by the side of British business whatever the future brings. That’s why we’re pledging to lend UK businesses up to £18bn in 2020. This is one of the ways we're #HelpingBritainProsper.",
+  "date":"5 janvier 2020",
   "topic":"british",
   "react":{
    "J’aime ":46,
@@ -197,6 +205,7 @@
  },
  "post9":{
   "titre":"Wishing all of our customers, colleagues and friends a Happy New Year! 🎆",
+  "date":"31 décembre 2019",
   "topic":"new",
   "react":{
    "J’aime ":147,
@@ -214,6 +223,7 @@
  },
  "post10":{
   "titre":"Wishing a Merry Christmas to all of our customers, colleagues and friends. 🎄",
+  "date":"24 décembre 2019",
   "topic":"customers",
   "react":{
    "J’aime ":167,
@@ -231,6 +241,7 @@
  },
  "post11":{
   "titre":"More than 6,000 of our staff served in the First World War. Nearly 1,000 did not return.",
+  "date":"10 novembre 2019",
   "topic":"war",
   "react":{
    "J’aime ":93,
@@ -258,6 +269,7 @@
  },
  "post12":{
   "titre":"Alongside our solid financial performance, we continue to make good progress with the right strategy in the current environment. http://bit.ly/LBGResults #LBGResults #HelpingBritainProsper #LLOY",
+  "date":"31 octobre 2019",
   "topic":"financial",
   "react":{
    "J’aime ":23,
@@ -285,6 +297,7 @@
  },
  "post13":{
   "titre":"António Horta-Osório shares his thoughts on today’s 2019 Q3 #LBGResults. Full details at http://bit.ly/LBGResults #LLOY",
+  "date":"31 octobre 2019",
   "topic":"horta",
   "react":{
    "J’aime ":24,
@@ -312,6 +325,7 @@
  },
  "post14":{
   "titre":"Today we announce our 2019 Q3 #LBGResults. See the highlights below. For a full breakdown, visit http://bit.ly/LBGResults #LLOY",
+  "date":"31 octobre 2019",
   "topic":"visit",
   "react":{
    "J’aime ":21,
@@ -329,6 +343,7 @@
  },
  "post15":{
   "titre":"Tomorrow we announce our 2019 Q3 #LBGResults from 7am, including a message from CEO António Horta-Osório. #LLOY",
+  "date":"30 octobre 2019",
   "topic":"",
   "react":{
    "J’aime ":23,
@@ -356,6 +371,7 @@
  },
  "post16":{
   "titre":"ANNOUNCEMENT: We're delighted to be extending our partnership with Mental Health UK for another two years.This will support Bloom, a new programme which will reach half a million young people in the UK.",
+  "date":"9 octobre 2019",
   "topic":"young",
   "react":{
    "J’aime ":125,
@@ -373,6 +389,7 @@
  },
  "post17":{
   "titre":"We've provided £140m of funding to the Hornsea One wind farm in the North Sea. It'll be capable of powering over one million UK homes with green electricity.",
+  "date":"24 septembre 2019",
   "topic":"wind",
   "react":{
    "J’aime ":34,
@@ -400,6 +417,7 @@
  },
  "post18":{
   "titre":"As the largest lender in the housing sector, we’re here to help Britain get a home. We’ve committed to:\n🏡 lend £30bn to first-time buyers by 2020\n🏡 support housebuilders to build new homes\n🏡 provide over £5.5bn for social housing",
+  "date":"27 août 2019",
   "topic":"housing",
   "react":{
    "J’aime ":21,
@@ -417,6 +435,7 @@
  },
  "post19":{
   "titre":"We're working to make saving for tomorrow, easy and flexible for our customers. #HelpingBritainProsper",
+  "date":"21 août 2019",
   "topic":"helpingbritainprosper",
   "react":{
    "J’aime ":13,

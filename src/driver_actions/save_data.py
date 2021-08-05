@@ -3,6 +3,7 @@ from src.driver_actions.extract_comment import CommentExtractor
 from src.driver_actions.extract_text import TextExtractor
 from src.driver_actions.extract_reaction import ReactExtractor
 from src.sentiment_analyszer.sentiment_post import SentimentPost
+from src.driver_actions.extract_date import DateExtractor
 #from src.sql_database.db import Db ,DB2
 #from src.sql_database.dddbb import Db3
 import pandas as pd
@@ -21,8 +22,10 @@ class SavingData :
             text = TextExtractor(web_element).extract_text()
             comment = CommentExtractor(web_element).extract_comment()
             react = ReactExtractor(web_element).extract_react
+            date = DateExtractor(web_element).extract_date()
             data["post" + str(k)] = dict()
             data["post" + str(k)]['titre'] = text[0]
+            data["post" + str(k)]['date'] = date
             data["post" + str(k)]['topic'] = text[1]
             data["post" + str(k)]['react']=dict()
             data["post" + str(k)]['react']['J’aime '] = react[0]
