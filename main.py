@@ -1,5 +1,5 @@
 import time
-import schedule
+#import schedule
 from src.driver_actions.extract_page import PageExtractor
 
 def main_process():

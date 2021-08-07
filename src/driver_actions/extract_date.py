@@ -3,6 +3,6 @@ class DateExtractor :
         self.web_element = web_element
 
     def extract_date(self):
-        datee = self.web_element.find_element_by_class_name('timestampContent')
-        data =datee.text
-        return data
+        datee = self.web_element.find_element_by_class_name('_5ptz').get_attribute("title")
+
+        return datee
