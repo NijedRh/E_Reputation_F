@@ -11,8 +11,8 @@ class SentimentPost :
             make a sum of coumpound number for each comment * 0.7
             +
             sum of compound number for the reaction *0.3
-            if  overall compound number > 0.1 then post sent is positive
-            elif overall compound number < 0.1 then post sent ins negative
+            if  overall compound number > 0.5 then post sent is positive
+            elif overall compound number < -0.4 then post sent ins negative
             else post sent in neutre
             i[0] = j'aime , i[1]=j'adore , i[2]= haha , i[3]=grrr
 

@@ -5,9 +5,7 @@ from src.nlp_fonctions.replace_number import ReplaceNumber
 from src.nlp_fonctions.stop_words import StopWords
 from src.nlp_fonctions.replace_contractions import Contractions
 from src.nlp_fonctions.lemmatize_verbs import LemmatizeVerbs
-from src.nlp_fonctions.topic import Topics
 import nltk
-
 
 
 class CommentCleaning:
@@ -31,7 +29,5 @@ class CommentCleaning:
         words = stop_words.remove_stopwords()
         lemma = LemmatizeVerbs(words)
         words = lemma.lemmatize_verbs()
-        """ldaa = Lda(words)
-        words2 = ldaa.lda_model()"""
 
         return words
